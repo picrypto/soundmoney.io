@@ -4,23 +4,26 @@
     font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter';
 }
 
+.center {
+    line-height: 200px;
+    height: 200px;
+    border: 3px solid green;
+    text-align: center;
+}
+
+.center * {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 h1 {
     text-align: center;
-    position: relative;
     color: white;
-    float:left;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     font-size: 30px;
 }
 h4 {
     text-align: center;
     color: white;
-    position: relative;
-    float:left;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     font-size: 20px;
 }
